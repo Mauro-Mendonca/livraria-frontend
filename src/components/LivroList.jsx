@@ -74,8 +74,8 @@ export default function LivroList() {
     <>
     <section className="list-section container">
         <div className="list-toolbar">
-        <SearchBar onSearch={handleSearch} />
-        <Botao onClick={openCreate} variant="primary">Novo Livro</Botao>
+          <SearchBar onSearch={handleSearch} />
+          <Botao onClick={openCreate} variant="primary">Novo Livro</Botao>
       </div>
       <Alert message={alert.message} type={alert.type} />
 

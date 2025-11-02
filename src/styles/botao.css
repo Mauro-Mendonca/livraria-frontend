@@ -25,3 +25,12 @@
   cursor: not-allowed;
 }
 
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+  .botao {
+    font-size: 0.85rem;
+    padding: 8px 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
