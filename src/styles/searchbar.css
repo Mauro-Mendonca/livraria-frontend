@@ -1,0 +1,36 @@
+.search-bar{
+    display:flex;
+    gap:8px;
+    margin-bottom:12px;
+    width: 700px;
+    border: solid 1px lightblue;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.search-bar input{
+    flex:1;
+    padding:10px;
+    border-radius:10px;
+    border:1px;
+   
+}
+
+@media (max-width: 600px) {
+  .search-bar {
+    flex-direction: column;
+    width: 100%;
+    gap: 6px;
+    border-radius: 8px;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+
+  .search-bar input {
+    font-size: 0.9rem;
+    padding: 8px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

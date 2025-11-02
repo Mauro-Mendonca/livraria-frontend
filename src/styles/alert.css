@@ -1,0 +1,24 @@
+.alert{
+    padding:9px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.alert.success{
+    background:#e9f7ef;
+    color:#0b6b2f;
+}
+
+.alert.error{
+    background:#fdecea;
+    color:#8b1f1f;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 600px) {
+  .alert {
+    font-size: 0.9rem;
+    padding: 8px;
+    word-break: break-word;
+  }
+}
